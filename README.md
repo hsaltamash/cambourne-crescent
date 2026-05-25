@@ -1,72 +1,48 @@
-# MCC East Bay WhatsApp Assistant
+# Cambourne Crescent AI Assistant
 
-**Hackathon Submission – MCC Campus**
-
-A WhatsApp-based AI assistant designed specifically for MCC East Bay (Pleasanton, CA) that provides instant, accurate, and trusted answers to common community questions.
+An AI assistant for [Cambourne Crescent](https://www.cambournecrescent.org/) — caring for local Muslims and the wider community of Cambourne, UK. Answers community questions via WhatsApp and a web chat interface.
 
 ## Table of Contents
 
 - [Overview](#overview)
-- [Problem Statement](#problem-statement)
 - [Features](#features)
 - [How It Works](#how-it-works)
 - [Safety & Trust](#safety--trust)
-- [Design](#design)
 - [Getting Started](#getting-started)
-- [Future Enhancements](#future-enhancements)
-- [Repository & License](#repository--license)
+- [Knowledge Base](#knowledge-base)
+- [Deployment](#deployment)
 
 ## Overview
 
-During Ramadan and major community events, MCC East Bay receives a large number of repetitive questions from families, elders, and youth — especially around prayer times, programs, parking, kids' activities, and logistics. Most of this information already exists on websites, flyers, or announcements, but it is fragmented, time-sensitive, and hard to access quickly.
-
-WhatsApp was chosen intentionally because it requires **no new app**, has **zero learning curve**, and is already widely used across all age groups.
-
-## Problem Statement
-
-- Repeated questions overload volunteers and staff during Ramadan
-- Families struggle to find correct, up-to-date information quickly
-- Websites are not always convenient for elders or busy parents
-- Incorrect or guessed information can reduce trust
-
-This assistant reduces friction by delivering **reliable answers instantly** in a channel people already use.
+Cambourne Crescent receives frequent questions from community members about prayer times, programmes, facilities, and events. This assistant provides instant, accurate answers via WhatsApp (no app install needed) and a web chat UI, reducing the burden on volunteers while ensuring information stays trusted and verified.
 
 ## Features
 
 - **WhatsApp-first experience** — No app install, no sign-up required
-- **Exact prayer times** — Fajr, Maghrib, Isha, Taraweeh from structured data
-- **Ramadan programs & schedules** — Complete community calendar
-- **Kids & family information** — Youth programs, accessibility, events
-- **Facilities & logistics** — Parking, prayer space, services
-- **Policies & contacts** — Official MCC information and support
-- **Safe AI usage** — Strict guardrails (no religious rulings, no guessing)
-- **Graceful fallback** — Clear responses when information is unavailable
+- **Web chat UI** — Available at the root URL (`/`)
+- **Exact prayer times** — Fajr, Dhuhr, Asr, Maghrib, Isha from structured data; never AI-generated
+- **Jumu'ah information** — Automated Friday prayer details
+- **Community programmes & events** — Powered by the Cambourne Crescent knowledge base
+- **Facilities & logistics** — Location, services, contact information
+- **Safe AI usage** — Strict guardrails (no religious rulings, no guessing on exact values)
+- **Graceful fallback** — Clear responses directing to official sources when information is unavailable
 
 ## How It Works
 
 The system uses a **tiered answer strategy**:
 
-1. **Deterministic data first** — Exact prayer times and schedules from structured data (CSV), never AI-generated
-2. **Curated knowledge base** — Policies, programs, and FAQs from MCC-maintained documents
-3. **Constrained AI reasoning** — MCC East Bay–specific questions only, never generic religious guidance
+1. **Deterministic data first** — Exact prayer times from a structured CSV, never AI-generated
+2. **Curated knowledge base** — Programmes, events, FAQs, and facilities from maintained Markdown files
+3. **Constrained AI reasoning** — Cambourne Crescent–specific questions only, never generic religious guidance
 
-If uncertain, the system clearly says so and directs users to official MCC sources or the imam.
+If uncertain, the system clearly says so and directs users to `cambournecrescent.org` or the imam.
 
 ## Safety & Trust
 
 - No fatwas or religious rulings provided
 - No guessing of times, dates, or prices
 - Clear "I don't know" responses when appropriate
-- Rate limiting and guardrails to prevent abuse
-- AI usage is optional and controlled
 - Designed to respect community trust
-
-## Design
-
-- **Separation of concerns** — Code, content, and configuration are cleanly separated
-- **Content-driven updates** — MCC can update FAQs and schedules without touching code
-- **Cost control** — "Bring Your Own API Key" so MCC controls AI usage and cost
-- **Deployment flexibility** — Can be deployed as a locked-down Docker image if needed
 
 ## Getting Started
 
@@ -74,7 +50,6 @@ If uncertain, the system clearly says so and directs users to official MCC sourc
 
 - Python 3.10 or newer
 - Git
-- Terminal (Command Prompt, PowerShell, or Mac/Linux terminal)
 
 Optional (for full WhatsApp + AI functionality):
 - Twilio account (WhatsApp Sandbox)
@@ -84,19 +59,11 @@ Optional (for full WhatsApp + AI functionality):
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/hsaltamash/mcc-whatsapp-bot
-   cd mcc-whatsapp-bot
+   git clone <repo-url>
+   cd cambourne-crescent
    ```
 
 2. **Create and activate virtual environment:**
-
-   On Windows:
-   ```bash
-   python -m venv venv
-   venv\Scripts\activate
-   ```
-
-   On macOS / Linux:
    ```bash
    python3 -m venv venv
    source venv/bin/activate
@@ -108,20 +75,13 @@ Optional (for full WhatsApp + AI functionality):
    ```
 
 4. **Set up environment variables:**
-
-   On Windows:
-   ```bash
-   setx OPENAI_API_KEY "your_api_key_here"
-   ```
-
-   On macOS / Linux:
    ```bash
    export OPENAI_API_KEY=your_api_key_here
    ```
 
 5. **Run the server:**
    ```bash
-   python -m uvicorn app.main:app --reload --port 3000
+   uvicorn app.main:app --reload --port 3000
    ```
 
    The service will start at: http://127.0.0.1:3000
@@ -130,7 +90,7 @@ Optional (for full WhatsApp + AI functionality):
 
 **Health check:**
 ```bash
-curl http://127.0.0.1:3000/
+curl http://127.0.0.1:3000/health
 ```
 
 **Test the WhatsApp webhook locally (without Twilio):**
@@ -140,34 +100,68 @@ curl -X POST "http://127.0.0.1:3000/whatsapp" \
   -d "Body=What time is Maghrib today?"
 ```
 
+**Test the web chat API:**
+```bash
+curl -X POST "http://127.0.0.1:3000/chat" \
+  -H "Content-Type: application/json" \
+  -d '{"message": "What time is Maghrib today?"}'
+```
+
 ## Knowledge Base
 
 The assistant reads community information from:
 
 ```
 kb/
-├── faq_*.md                        # FAQs, programs, policies, facilities
-├── daily_prayer_times.csv          # Daily prayer & Taraweeh times
-└── README.md                       # This file
+├── cambourne_core.md          # Organisation info, facilities, contact
+├── cambourne_prayer.md        # Prayer and Jumu'ah details
+├── cambourne_services.md      # Services and recurring programmes
+├── cambourne_events.md        # Events, news, activities
+├── cambourne_faqs.md          # Frequently asked questions
+└── prayer_times_cambourne.csv # Daily prayer times (adhan + jamaat)
 ```
 
-## Future Enhancements
+To update community information, edit the relevant `kb/*.md` file or the CSV — no code changes required.
 
-- Multi-language support (English / Urdu / Hindi)
-- Event reminders and broadcasts
-- Analytics for unanswered questions
-- Reusable framework for other community centers
+The CSV format expected by the app:
 
-## Notes for Reviewers
+```
+date,fajr_start,fajr_jamaat,dhuhr_start,dhuhr_jamaat,asr_start,asr_jamaat,maghrib_start,maghrib_jamaat,isha_start,isha_jamaat
+2026-05-25,03:00,03:20,13:02,,18:27,,21:06,21:10,22:14,22:30
+```
 
-- The system prioritizes accuracy over novelty
-- Exact prayer times are never generated by AI
-- Religious rulings are intentionally excluded
-- AI usage is constrained to MCC East Bay context only
-- The project is designed to be immediately usable by the community
+## Deployment
 
-## Repository & License
+The app runs as a Docker container on a Hostinger VPS behind Nginx.
 
-**GitHub:** https://github.com/hsaltamash/mcc-whatsapp-bot
+- **URL:** https://cambournecrescent.imaginebest.com
+- **VPS path:** `/home/githubdeploy/cambourne-crescent`
+- **Host port:** `3006` → container port `8000`
 
-Developed as a hackathon project focused on **responsible, accurate, and community-centered use of AI** for MCC East Bay.
+### Docker (manual)
+
+```bash
+docker compose -f docker-compose.prod.yml up --build -d
+```
+
+### GitHub Actions
+
+Pushing to `main` triggers the deploy workflow automatically. Configure the `PROD` environment in GitHub with:
+
+**Variables:**
+- `VPS_HOST`, `VPS_USER`, `VPS_PORT`, `VPS_DEPLOY_PATH`
+- `CC_IMAGE=cambourne-crescent:prod`
+- `CC_HTTP_PORT=3006`
+
+**Secrets:**
+- `VPS_SSH_PRIVATE_KEY`
+- `OPENAI_API_KEY`
+
+### Verify deployment
+
+```bash
+curl -I https://cambournecrescent.imaginebest.com
+curl -X POST "https://cambournecrescent.imaginebest.com/whatsapp" \
+  -H "Content-Type: application/x-www-form-urlencoded" \
+  -d "Body=What time is Maghrib today?"
+```

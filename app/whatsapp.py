@@ -1,7 +1,7 @@
 from fastapi import APIRouter, Request
 from fastapi.responses import PlainTextResponse
 from twilio.twiml.messaging_response import MessagingResponse
-from app.prayers import check_prayer_time_shortcuts
+from app.prayers import check_prayer_time_shortcuts, check_all_prayers_request
 from app.ai import answer_with_ai_or_fallback
 from app.utils import clamp_reply
 
@@ -13,7 +13,9 @@ async def whatsapp(request: Request):
         form = await request.form()
         user_msg = (form.get("Body") or "").strip()
 
-        reply = check_prayer_time_shortcuts(user_msg)
+        reply = check_all_prayers_request(user_msg)
+        if not reply:
+            reply = check_prayer_time_shortcuts(user_msg)
         if not reply:
             reply = answer_with_ai_or_fallback(user_msg)
 

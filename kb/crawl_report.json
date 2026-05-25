@@ -1,0 +1,8 @@
+{
+  "pages_crawled": 16,
+  "sitemap_urls_seen": 66,
+  "prayer_rows_extracted": 221,
+  "pages_that_could_not_be_fetched": [],
+  "conflicts_or_uncertain_data": "Missing fields are written as 'not specified on the source page'. Prayer location abbreviations can vary by row.",
+  "recommended_next_improvements": "Add a daily diff review if this knowledge base is used for production prayer-time answers."
+}

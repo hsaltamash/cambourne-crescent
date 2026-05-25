@@ -23,7 +23,7 @@ class KnowledgeBase:
         """
         self.kb_files = sorted(glob.glob(path_pattern))
         if not self.kb_files:
-            raise FileNotFoundError(f"No files found matching pattern: {path_pattern}")
+            return
         
         parts = []
         for fp in self.kb_files:
@@ -82,8 +82,8 @@ class KnowledgeBase:
             ValueError: If KB text is not loaded.
         """
         if not self.kb_text:
-            raise ValueError("Knowledge base text not loaded. Call load_kb_text() first.")
-        
+            return ""
+
         terms = self._preprocess_query(query)
         paragraphs = [p for p in self.kb_text.split("\n\n") if p.strip()]
         scored = self._score_paragraphs(terms, paragraphs)
@@ -93,9 +93,34 @@ class KnowledgeBase:
             print(result)
         return result
 
-# Example usage (for testing or integration)
-if __name__ == "__main__":
-    kb = KnowledgeBase()
-    kb.load_kb_text()
-    context = kb.retrieve_context_keyword("example query", debug=True)
-    print(context)
+    def retrieve_context_from_file(self, filepath: str, query: str, max_chars=2200) -> str:
+        try:
+            with open(filepath, encoding="utf-8") as f:
+                text = f.read()
+        except IOError:
+            return ""
+        terms = self._preprocess_query(query)
+        paragraphs = [p for p in text.split("\n\n") if p.strip()]
+        scored = self._score_paragraphs(terms, paragraphs)
+        if scored:
+            return "\n\n---\n\n".join(p for _, p in scored[:6])[:max_chars]
+        return text[:max_chars]
+
+    def retrieve_context_from_files(self, filepaths: list, query: str, max_chars=2200) -> str:
+        """Score paragraphs across multiple specific files and return the top results."""
+        combined = []
+        for fp in filepaths:
+            try:
+                with open(fp, encoding="utf-8") as f:
+                    combined.append(f.read())
+            except IOError:
+                continue
+        if not combined:
+            return ""
+        text = "\n\n".join(combined)
+        terms = self._preprocess_query(query)
+        paragraphs = [p for p in text.split("\n\n") if p.strip()]
+        scored = self._score_paragraphs(terms, paragraphs)
+        if scored:
+            return "\n\n---\n\n".join(p for _, p in scored[:8])[:max_chars]
+        return text[:max_chars]

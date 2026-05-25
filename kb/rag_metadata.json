@@ -1,0 +1,2045 @@
+[
+  {
+    "source": "knowledge/cambourne_core.md",
+    "title": "Cambourne Crescent core knowledge",
+    "section": "core",
+    "format": "markdown",
+    "freshness": "monthly",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "knowledge/cambourne_prayer.md",
+    "title": "Cambourne Crescent prayer knowledge",
+    "section": "prayer",
+    "format": "markdown",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "knowledge/cambourne_services.md",
+    "title": "Cambourne Crescent service knowledge",
+    "section": "services",
+    "format": "markdown",
+    "freshness": "monthly",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "knowledge/cambourne_events.md",
+    "title": "Cambourne Crescent news and events knowledge",
+    "section": "events",
+    "format": "markdown",
+    "freshness": "weekly",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "knowledge/cambourne_faqs.md",
+    "title": "Cambourne Crescent FAQs",
+    "section": "faq",
+    "format": "markdown",
+    "freshness": "monthly",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "knowledge/prayer_times_cambourne.csv",
+    "title": "Cambourne Crescent prayer CSV",
+    "section": "prayer",
+    "format": "csv",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php",
+    "title": "Prayer times 2026-05-25",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=2",
+    "title": "Prayer times 2026-05-26",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=3",
+    "title": "Prayer times 2026-05-27",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=4",
+    "title": "Prayer times 2026-05-28",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=5",
+    "title": "Prayer times 2026-05-29",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=6",
+    "title": "Prayer times 2026-05-30",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=7",
+    "title": "Prayer times 2026-05-31",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=8",
+    "title": "Prayer times 2026-06-01",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=9",
+    "title": "Prayer times 2026-06-02",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=10",
+    "title": "Prayer times 2026-06-03",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=11",
+    "title": "Prayer times 2026-06-04",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=12",
+    "title": "Prayer times 2026-06-05",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=13",
+    "title": "Prayer times 2026-06-06",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=14",
+    "title": "Prayer times 2026-06-07",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=15",
+    "title": "Prayer times 2026-06-08",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=16",
+    "title": "Prayer times 2026-06-09",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=17",
+    "title": "Prayer times 2026-06-10",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=18",
+    "title": "Prayer times 2026-06-11",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=19",
+    "title": "Prayer times 2026-06-12",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=20",
+    "title": "Prayer times 2026-06-13",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=21",
+    "title": "Prayer times 2026-06-14",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=22",
+    "title": "Prayer times 2026-06-15",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=23",
+    "title": "Prayer times 2026-06-16",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=24",
+    "title": "Prayer times 2026-06-17",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=25",
+    "title": "Prayer times 2026-06-18",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=26",
+    "title": "Prayer times 2026-06-19",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=27",
+    "title": "Prayer times 2026-06-20",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=28",
+    "title": "Prayer times 2026-06-21",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=29",
+    "title": "Prayer times 2026-06-22",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=30",
+    "title": "Prayer times 2026-06-23",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=31",
+    "title": "Prayer times 2026-06-24",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=32",
+    "title": "Prayer times 2026-06-25",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=33",
+    "title": "Prayer times 2026-06-26",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=34",
+    "title": "Prayer times 2026-06-27",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=35",
+    "title": "Prayer times 2026-06-28",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=36",
+    "title": "Prayer times 2026-06-29",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=37",
+    "title": "Prayer times 2026-06-30",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=38",
+    "title": "Prayer times 2026-07-01",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=39",
+    "title": "Prayer times 2026-07-02",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=40",
+    "title": "Prayer times 2026-07-03",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=41",
+    "title": "Prayer times 2026-07-04",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=42",
+    "title": "Prayer times 2026-07-05",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=43",
+    "title": "Prayer times 2026-07-06",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=44",
+    "title": "Prayer times 2026-07-07",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=45",
+    "title": "Prayer times 2026-07-08",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=46",
+    "title": "Prayer times 2026-07-09",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=47",
+    "title": "Prayer times 2026-07-10",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=48",
+    "title": "Prayer times 2026-07-11",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=49",
+    "title": "Prayer times 2026-07-12",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=50",
+    "title": "Prayer times 2026-07-13",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=51",
+    "title": "Prayer times 2026-07-14",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=52",
+    "title": "Prayer times 2026-07-15",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=53",
+    "title": "Prayer times 2026-07-16",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=54",
+    "title": "Prayer times 2026-07-17",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=55",
+    "title": "Prayer times 2026-07-18",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=56",
+    "title": "Prayer times 2026-07-19",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=57",
+    "title": "Prayer times 2026-07-20",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=58",
+    "title": "Prayer times 2026-07-21",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=59",
+    "title": "Prayer times 2026-07-22",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=60",
+    "title": "Prayer times 2026-07-23",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=61",
+    "title": "Prayer times 2026-07-24",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=62",
+    "title": "Prayer times 2026-07-25",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=63",
+    "title": "Prayer times 2026-07-26",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=64",
+    "title": "Prayer times 2026-07-27",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=65",
+    "title": "Prayer times 2026-07-28",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=66",
+    "title": "Prayer times 2026-07-29",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=67",
+    "title": "Prayer times 2026-07-30",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=68",
+    "title": "Prayer times 2026-07-31",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=69",
+    "title": "Prayer times 2026-08-01",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=70",
+    "title": "Prayer times 2026-08-02",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=71",
+    "title": "Prayer times 2026-08-03",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=72",
+    "title": "Prayer times 2026-08-04",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=73",
+    "title": "Prayer times 2026-08-05",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=74",
+    "title": "Prayer times 2026-08-06",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=75",
+    "title": "Prayer times 2026-08-07",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=76",
+    "title": "Prayer times 2026-08-08",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=77",
+    "title": "Prayer times 2026-08-09",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=78",
+    "title": "Prayer times 2026-08-10",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=79",
+    "title": "Prayer times 2026-08-11",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=80",
+    "title": "Prayer times 2026-08-12",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=81",
+    "title": "Prayer times 2026-08-13",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=82",
+    "title": "Prayer times 2026-08-14",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=83",
+    "title": "Prayer times 2026-08-15",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=84",
+    "title": "Prayer times 2026-08-16",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=85",
+    "title": "Prayer times 2026-08-17",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=86",
+    "title": "Prayer times 2026-08-18",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=87",
+    "title": "Prayer times 2026-08-19",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=88",
+    "title": "Prayer times 2026-08-20",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=89",
+    "title": "Prayer times 2026-08-21",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=90",
+    "title": "Prayer times 2026-08-22",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=91",
+    "title": "Prayer times 2026-08-23",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=92",
+    "title": "Prayer times 2026-08-24",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=93",
+    "title": "Prayer times 2026-08-25",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=94",
+    "title": "Prayer times 2026-08-26",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=95",
+    "title": "Prayer times 2026-08-27",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=96",
+    "title": "Prayer times 2026-08-28",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=97",
+    "title": "Prayer times 2026-08-29",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=98",
+    "title": "Prayer times 2026-08-30",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=99",
+    "title": "Prayer times 2026-08-31",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=100",
+    "title": "Prayer times 2026-09-01",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=101",
+    "title": "Prayer times 2026-09-02",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=102",
+    "title": "Prayer times 2026-09-03",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=103",
+    "title": "Prayer times 2026-09-04",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=104",
+    "title": "Prayer times 2026-09-05",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=105",
+    "title": "Prayer times 2026-09-06",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=106",
+    "title": "Prayer times 2026-09-07",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=107",
+    "title": "Prayer times 2026-09-08",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=108",
+    "title": "Prayer times 2026-09-09",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=109",
+    "title": "Prayer times 2026-09-10",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=110",
+    "title": "Prayer times 2026-09-11",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=111",
+    "title": "Prayer times 2026-09-12",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=112",
+    "title": "Prayer times 2026-09-13",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=113",
+    "title": "Prayer times 2026-09-14",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=114",
+    "title": "Prayer times 2026-09-15",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=115",
+    "title": "Prayer times 2026-09-16",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=116",
+    "title": "Prayer times 2026-09-17",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=117",
+    "title": "Prayer times 2026-09-18",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=118",
+    "title": "Prayer times 2026-09-19",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=119",
+    "title": "Prayer times 2026-09-20",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=120",
+    "title": "Prayer times 2026-09-21",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=121",
+    "title": "Prayer times 2026-09-22",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=122",
+    "title": "Prayer times 2026-09-23",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=123",
+    "title": "Prayer times 2026-09-24",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=124",
+    "title": "Prayer times 2026-09-25",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=125",
+    "title": "Prayer times 2026-09-26",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=126",
+    "title": "Prayer times 2026-09-27",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=127",
+    "title": "Prayer times 2026-09-28",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=128",
+    "title": "Prayer times 2026-09-29",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=129",
+    "title": "Prayer times 2026-09-30",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=130",
+    "title": "Prayer times 2026-10-01",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=131",
+    "title": "Prayer times 2026-10-02",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=132",
+    "title": "Prayer times 2026-10-03",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=133",
+    "title": "Prayer times 2026-10-04",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=134",
+    "title": "Prayer times 2026-10-05",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=135",
+    "title": "Prayer times 2026-10-06",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=136",
+    "title": "Prayer times 2026-10-07",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=137",
+    "title": "Prayer times 2026-10-08",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=138",
+    "title": "Prayer times 2026-10-09",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=139",
+    "title": "Prayer times 2026-10-10",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=140",
+    "title": "Prayer times 2026-10-11",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=141",
+    "title": "Prayer times 2026-10-12",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=142",
+    "title": "Prayer times 2026-10-13",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=143",
+    "title": "Prayer times 2026-10-14",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=144",
+    "title": "Prayer times 2026-10-15",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=145",
+    "title": "Prayer times 2026-10-16",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=146",
+    "title": "Prayer times 2026-10-17",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=147",
+    "title": "Prayer times 2026-10-18",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=148",
+    "title": "Prayer times 2026-10-19",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=149",
+    "title": "Prayer times 2026-10-20",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=150",
+    "title": "Prayer times 2026-10-21",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=151",
+    "title": "Prayer times 2026-10-22",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=152",
+    "title": "Prayer times 2026-10-23",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=153",
+    "title": "Prayer times 2026-10-24",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=154",
+    "title": "Prayer times 2026-10-25",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=155",
+    "title": "Prayer times 2026-10-26",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=156",
+    "title": "Prayer times 2026-10-27",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=157",
+    "title": "Prayer times 2026-10-28",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=158",
+    "title": "Prayer times 2026-10-29",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=159",
+    "title": "Prayer times 2026-10-30",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=160",
+    "title": "Prayer times 2026-10-31",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=161",
+    "title": "Prayer times 2026-11-01",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=162",
+    "title": "Prayer times 2026-11-02",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=163",
+    "title": "Prayer times 2026-11-03",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=164",
+    "title": "Prayer times 2026-11-04",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=165",
+    "title": "Prayer times 2026-11-05",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=166",
+    "title": "Prayer times 2026-11-06",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=167",
+    "title": "Prayer times 2026-11-07",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=168",
+    "title": "Prayer times 2026-11-08",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=169",
+    "title": "Prayer times 2026-11-09",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=170",
+    "title": "Prayer times 2026-11-10",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=171",
+    "title": "Prayer times 2026-11-11",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=172",
+    "title": "Prayer times 2026-11-12",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=173",
+    "title": "Prayer times 2026-11-13",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=174",
+    "title": "Prayer times 2026-11-14",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=175",
+    "title": "Prayer times 2026-11-15",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=176",
+    "title": "Prayer times 2026-11-16",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=177",
+    "title": "Prayer times 2026-11-17",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=178",
+    "title": "Prayer times 2026-11-18",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=179",
+    "title": "Prayer times 2026-11-19",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=180",
+    "title": "Prayer times 2026-11-20",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=181",
+    "title": "Prayer times 2026-11-21",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=182",
+    "title": "Prayer times 2026-11-22",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=183",
+    "title": "Prayer times 2026-11-23",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=184",
+    "title": "Prayer times 2026-11-24",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=185",
+    "title": "Prayer times 2026-11-25",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=186",
+    "title": "Prayer times 2026-11-26",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=187",
+    "title": "Prayer times 2026-11-27",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=188",
+    "title": "Prayer times 2026-11-28",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=189",
+    "title": "Prayer times 2026-11-29",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=190",
+    "title": "Prayer times 2026-11-30",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=191",
+    "title": "Prayer times 2026-12-01",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=192",
+    "title": "Prayer times 2026-12-02",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=193",
+    "title": "Prayer times 2026-12-03",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=194",
+    "title": "Prayer times 2026-12-04",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=195",
+    "title": "Prayer times 2026-12-05",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=196",
+    "title": "Prayer times 2026-12-06",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=197",
+    "title": "Prayer times 2026-12-07",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=198",
+    "title": "Prayer times 2026-12-08",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=199",
+    "title": "Prayer times 2026-12-09",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=200",
+    "title": "Prayer times 2026-12-10",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=201",
+    "title": "Prayer times 2026-12-11",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=202",
+    "title": "Prayer times 2026-12-12",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=203",
+    "title": "Prayer times 2026-12-13",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=204",
+    "title": "Prayer times 2026-12-14",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=205",
+    "title": "Prayer times 2026-12-15",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=206",
+    "title": "Prayer times 2026-12-16",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=207",
+    "title": "Prayer times 2026-12-17",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=208",
+    "title": "Prayer times 2026-12-18",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=209",
+    "title": "Prayer times 2026-12-19",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=210",
+    "title": "Prayer times 2026-12-20",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=211",
+    "title": "Prayer times 2026-12-21",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=212",
+    "title": "Prayer times 2026-12-22",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=213",
+    "title": "Prayer times 2026-12-23",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=214",
+    "title": "Prayer times 2026-12-24",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=215",
+    "title": "Prayer times 2026-12-25",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=216",
+    "title": "Prayer times 2026-12-26",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=217",
+    "title": "Prayer times 2026-12-27",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=218",
+    "title": "Prayer times 2026-12-28",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=219",
+    "title": "Prayer times 2026-12-29",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=220",
+    "title": "Prayer times 2026-12-30",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  },
+  {
+    "source": "https://www.cambournecrescent.org/salah/v2/time-cc-today-v2.php?page=221",
+    "title": "Prayer times 2026-12-31",
+    "section": "prayer",
+    "format": "prayer_row",
+    "freshness": "daily",
+    "last_crawled": "2026-05-24 20:44:47",
+    "usable": true
+  }
+]

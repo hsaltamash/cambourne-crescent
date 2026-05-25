@@ -1,0 +1,121 @@
+name: Deploy Cambourne Crescent Bot
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+concurrency:
+  group: deploy-cambourne-crescent-production
+  cancel-in-progress: false
+
+jobs:
+  test:
+    name: Test
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Compile Python
+        run: python -m compileall app
+
+  deploy:
+    name: Deploy to VPS
+    runs-on: ubuntu-latest
+    needs: test
+    if: ${{ github.ref == 'refs/heads/main' }}
+    environment: PROD
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Configure SSH
+        shell: bash
+        env:
+          VPS_HOST: ${{ vars.VPS_HOST }}
+          VPS_PORT: ${{ vars.VPS_PORT || 22 }}
+          VPS_SSH_PRIVATE_KEY: ${{ secrets.VPS_SSH_PRIVATE_KEY }}
+        run: |
+          set -euo pipefail
+          mkdir -p ~/.ssh
+          chmod 700 ~/.ssh
+          printf '%s\n' "$VPS_SSH_PRIVATE_KEY" > ~/.ssh/deploy_key
+          chmod 600 ~/.ssh/deploy_key
+          ssh-keyscan -p "$VPS_PORT" "$VPS_HOST" >> ~/.ssh/known_hosts
+
+      - name: Write production env
+        shell: bash
+        env:
+          CC_IMAGE: ${{ vars.CC_IMAGE }}
+          CC_HTTP_PORT: ${{ vars.CC_HTTP_PORT }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          set -euo pipefail
+          umask 077
+          {
+            printf 'CC_IMAGE=%s\n' "${CC_IMAGE:-cambourne-crescent:prod}"
+            printf 'CC_HTTP_PORT=%s\n' "${CC_HTTP_PORT:-3006}"
+            printf 'OPENAI_API_KEY=%s\n' "${OPENAI_API_KEY:-}"
+          } > .env.production
+
+      - name: Upload project
+        shell: bash
+        env:
+          VPS_DEPLOY_PATH: ${{ vars.VPS_DEPLOY_PATH }}
+          VPS_HOST: ${{ vars.VPS_HOST }}
+          VPS_PORT: ${{ vars.VPS_PORT || 22 }}
+          VPS_USER: ${{ vars.VPS_USER }}
+        run: |
+          set -euo pipefail
+          SSH_TARGET="$VPS_USER@$VPS_HOST"
+
+          ssh -i ~/.ssh/deploy_key -p "$VPS_PORT" "$SSH_TARGET" "mkdir -p '$VPS_DEPLOY_PATH'"
+          tar \
+            --exclude='.git' \
+            --exclude='.env' \
+            --exclude='.env.production' \
+            --exclude='__pycache__' \
+            --exclude='venv' \
+            --exclude='.venv' \
+            -czf - . | ssh -i ~/.ssh/deploy_key -p "$VPS_PORT" "$SSH_TARGET" "tar -xzf - -C '$VPS_DEPLOY_PATH'"
+          scp -i ~/.ssh/deploy_key -P "$VPS_PORT" .env.production "$SSH_TARGET:$VPS_DEPLOY_PATH/.env"
+
+      - name: Start production compose
+        shell: bash
+        env:
+          VPS_DEPLOY_PATH: ${{ vars.VPS_DEPLOY_PATH }}
+          VPS_HOST: ${{ vars.VPS_HOST }}
+          VPS_PORT: ${{ vars.VPS_PORT || 22 }}
+          VPS_USER: ${{ vars.VPS_USER }}
+          CC_HTTP_PORT: ${{ vars.CC_HTTP_PORT }}
+        run: |
+          set -euo pipefail
+          SSH_TARGET="$VPS_USER@$VPS_HOST"
+
+          ssh -i ~/.ssh/deploy_key -p "$VPS_PORT" "$SSH_TARGET" "
+            set -eu
+            cd '$VPS_DEPLOY_PATH'
+            docker compose -f docker-compose.prod.yml up -d --build
+            docker compose -f docker-compose.prod.yml ps
+            sleep 5
+            docker compose -f docker-compose.prod.yml logs --tail=80 cambourne-crescent
+            docker compose -f docker-compose.prod.yml exec -T cambourne-crescent python -c \"import urllib.request; response=urllib.request.urlopen('http://127.0.0.1:8000/health', timeout=10); print(response.read().decode())\"
+            docker image prune -af --filter \"until=168h\"
+            docker builder prune -af --filter \"until=168h\"
+          "

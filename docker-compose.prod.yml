@@ -1,0 +1,11 @@
+services:
+  cambourne-crescent:
+    build:
+      context: .
+    image: ${CC_IMAGE:-cambourne-crescent:prod}
+    container_name: cambourne-crescent
+    restart: unless-stopped
+    env_file:
+      - .env
+    ports:
+      - "127.0.0.1:${CC_HTTP_PORT:-3006}:8000"
